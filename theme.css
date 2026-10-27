@@ -7,6 +7,7 @@
     --bg_main: #111111;
     --bg_accent: #000;
     --border_accent:#888888;
+    --c_accent_1: 255,255,255;
     
     --c_text_normal: #ffffff;
     --c_text_italics: #7ea0ff;
@@ -26,7 +27,7 @@
     
     /* TABS */
     --tab-font-weight: 900;
-    --tab-curve: 5px;
+    --tab-curve: 0px;
     --tab-text-color: rgb(79, 79, 79);
     --tab-text-color-focused: rgb(79, 79, 79);
     --tab-text-color-focused-active: var(--c_text_normal);
@@ -35,8 +36,9 @@
 .theme-light {
     /* VARS */
     --bg_main: #fff;
-    --bg_accent: #f1f5ff;
-    --border_accent:#888888;
+    --bg_accent: #f5faff;
+    --border_accent:#000;
+    --c_accent_1: 0,0,0;
 
     --c_text_normal: #000;
     --c_text_italics: #2954ff;
@@ -57,7 +59,7 @@
 
     /* TABS */
     --tab-font-weight: 900;
-    --tab-curve: 5px;
+    --tab-curve: 0px;
     --tab-text-color: rgb(151, 151, 151);
     --tab-text-color-focused: rgb(165, 165, 165);
     --tab-text-color-focused-active: var(--c_text_normal);
@@ -65,7 +67,7 @@
 
 .theme-light, .theme-dark {
     /* VARS */
-    --accent_1_rgb: 154, 107, 255;
+    --accent_1_rgb: var(--c_accent_1);
 
     /* TEST */
 
