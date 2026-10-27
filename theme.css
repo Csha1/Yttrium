@@ -1,0 +1,98 @@
+:root {
+    --default-font: 'consolas';
+    --font-monospace: '"JetBrains Mono", monospace, "Source Code Pro", monospace';
+}
+
+.theme-dark {
+    /* VARS */
+    --bg_main: #000000;
+    --bg_accent: #090018;
+    --border_accent:hsl(263, 27%, 29%);
+    
+    --c_text_normal: rgb(182, 137, 255);
+    --c_text_italics: rgb(199, 199, 199);
+    --c_text_bold: rgb(255, 126, 126);
+
+    --c_h1: #ffffff;
+    --c_h2: #d9c1ff;
+    --c_h3: #a974ff;
+    --c_h4: #6435af;
+    --c_h5: #532799;
+    --c_h6: #4b2090;
+
+    /* ACCENT */
+    --accent-h: 263;
+    --accent-s: 100%;
+    --accent-l: 70%;
+    
+    /* TABS */
+    --tab-font-weight: 900;
+    --tab-curve: 5px;
+    --tab-text-color: rgb(79, 79, 79);
+    --tab-text-color-focused: rgb(79, 79, 79);
+    --tab-text-color-focused-active: --c_text_normal;
+}
+
+.theme-light {
+    /* VARS */
+    --bg_main: #ffffff;
+    --bg_accent: #f2edff;
+    --border_accent:hsl(262, 54%, 78%);
+
+    --c_text_italics: rgb(0, 0, 0);
+    --c_text_normal: rgb(130, 52, 255);
+    --c_text_bold: rgb(255, 40, 40);
+    
+    --c_h1: #000000;
+    --c_h2: #7e2eff;
+    --c_h3: #b283ff;
+    --c_h4: #c8a6ff;
+    --c_h5: #d8c0ff;
+    --c_h6: #d7beff;
+
+    
+    /* ACCENT */
+    --accent-h: 263;
+    --accent-s: 100%;
+    --accent-l: 70%;
+
+    /* TABS */
+    --tab-font-weight: 900;
+    --tab-curve: 5px;
+    --tab-text-color: rgb(151, 151, 151);
+    --tab-text-color-focused: rgb(165, 165, 165);
+    --tab-text-color-focused-active: var(--c_text_normal);
+}
+
+.theme-light, .theme-dark {
+    /* VARS */
+    --accent_1_rgb: 154, 107, 255;
+
+    /* TEST */
+
+    /* BG */
+    --background-primary: var(--bg_main);
+    --background-primary-alt: var(--bg_accent);
+    --background-secondary: var(--bg_accent);
+    --background-secondary-alt: var(--bg_accent);
+    --ribbon-background: var(--bg_accent);
+    --background-modifier-border: var(--border_accent);
+
+    /* RIBBON */
+    --nav-item-weight-active: 600;
+    --nav-indentation-guide-width: 2px;
+    --nav-item-color-hover: rgb(var(--accent_1_rgb));
+    --nav-item-color-active: rgb(var(--accent_1_rgb));
+    --nav-item-background-active: rgba(var(--accent_1_rgb), 0.2);
+
+    /* TEXT */
+    --text-normal: var(--c_text_normal);
+    --italic-color: var(--c_text_italics);
+    --bold-color: var(--c_text_bold);
+    --h1-color: var(--c_h1);
+    --h2-color: var(--c_h2);
+    --h3-color: var(--c_h3);
+    --h4-color: var(--c_h4);
+    --h5-color: var(--c_h5);
+    --h6-color: var(--c_h6);
+}
